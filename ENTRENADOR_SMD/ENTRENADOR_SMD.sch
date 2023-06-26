@@ -9094,89 +9094,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="3386P-1-101TLF">
-<packages>
-<package name="TRIM_3386P-1-101TLF">
-<wire x1="4.765" y1="4.765" x2="4.765" y2="-4.765" width="0.127" layer="51"/>
-<wire x1="4.765" y1="-4.765" x2="3.765" y2="-4.765" width="0.127" layer="51"/>
-<wire x1="3.765" y1="-4.765" x2="3.765" y2="-4.385" width="0.127" layer="51"/>
-<wire x1="3.765" y1="-4.385" x2="-3.765" y2="-4.385" width="0.127" layer="51"/>
-<wire x1="-3.765" y1="-4.385" x2="-3.765" y2="-4.765" width="0.127" layer="51"/>
-<wire x1="-3.765" y1="-4.765" x2="-4.765" y2="-4.765" width="0.127" layer="51"/>
-<wire x1="-4.765" y1="-4.765" x2="-4.765" y2="4.765" width="0.127" layer="51"/>
-<wire x1="-4.765" y1="4.765" x2="4.765" y2="4.765" width="0.127" layer="51"/>
-<wire x1="4.765" y1="4.765" x2="4.765" y2="-4.765" width="0.127" layer="21"/>
-<wire x1="4.765" y1="-4.765" x2="3.765" y2="-4.765" width="0.127" layer="21"/>
-<wire x1="3.765" y1="-4.765" x2="3.765" y2="-4.385" width="0.127" layer="21"/>
-<wire x1="3.765" y1="-4.385" x2="-3.765" y2="-4.385" width="0.127" layer="21"/>
-<wire x1="-3.765" y1="-4.385" x2="-3.765" y2="-4.765" width="0.127" layer="21"/>
-<wire x1="-3.765" y1="-4.765" x2="-4.765" y2="-4.765" width="0.127" layer="21"/>
-<wire x1="-4.765" y1="-4.765" x2="-4.765" y2="4.765" width="0.127" layer="21"/>
-<wire x1="-4.765" y1="4.765" x2="4.765" y2="4.765" width="0.127" layer="21"/>
-<wire x1="-5.015" y1="5.015" x2="-5.015" y2="-5.015" width="0.05" layer="38"/>
-<wire x1="-5.015" y1="-5.015" x2="5.015" y2="-5.015" width="0.05" layer="38"/>
-<wire x1="5.015" y1="-5.015" x2="5.015" y2="5.015" width="0.05" layer="38"/>
-<wire x1="5.015" y1="5.015" x2="-5.015" y2="5.015" width="0.05" layer="38"/>
-<circle x="-5.515" y="-0.015" radius="0.1" width="0.2" layer="21"/>
-<circle x="-5.515" y="-0.015" radius="0.1" width="0.2" layer="51"/>
-<text x="-5.015" y="6.015" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.015" y="-6.015" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<pad name="1" x="-2.54" y="-0.015" drill="0.76" shape="square"/>
-<pad name="2" x="0" y="-2.555" drill="0.76"/>
-<pad name="3" x="2.54" y="-0.015" drill="0.76"/>
-</package>
-</packages>
-<symbols>
-<symbol name="3386P-1-101TLF">
-<wire x1="-5.08" y1="0" x2="-4.572" y2="0" width="0.1524" layer="94"/>
-<wire x1="-4.572" y1="0" x2="-3.81" y2="1.016" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.016" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="1.016" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.016" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="1.27" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.016" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="3.81" y2="1.016" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.016" x2="4.572" y2="0" width="0.254" layer="94"/>
-<wire x1="4.572" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.27" x2="1.27" y2="-2.54" width="0.2032" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="0" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.2032" layer="94"/>
-<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="CCW" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="CW" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="WIPER" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="3386P-1-101TLF" prefix="R">
-<description> &lt;a href="https://pricing.snapeda.com/parts/3386P-1-101TLF/Bourns/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="3386P-1-101TLF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TRIM_3386P-1-101TLF">
-<connects>
-<connect gate="G$1" pin="CCW" pad="1"/>
-<connect gate="G$1" pin="CW" pad="3"/>
-<connect gate="G$1" pin="WIPER" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" 100 Ohms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Finger Adjustment "/>
-<attribute name="MF" value="Bourns"/>
-<attribute name="MP" value="3386P-1-101TLF"/>
-<attribute name="PACKAGE" value="NON-STANDARD-3 Bourns"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=3386P-1-101TLF&amp;ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-3m" urn="urn:adsk.eagle:library:119">
 <description>&lt;b&gt;3M Connectors&lt;/b&gt;&lt;p&gt;
 PCMCIA-CompactFlash Connectors&lt;p&gt;
@@ -10159,6 +10076,81 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="COM-09806">
+<packages>
+<package name="TRIM_COM-09806">
+<wire x1="-4.765" y1="4.78" x2="4.765" y2="4.78" width="0.127" layer="51"/>
+<wire x1="4.765" y1="4.78" x2="4.765" y2="-4.75" width="0.127" layer="51"/>
+<wire x1="4.765" y1="-4.75" x2="-4.765" y2="-4.75" width="0.127" layer="51"/>
+<wire x1="-4.765" y1="-4.75" x2="-4.765" y2="4.78" width="0.127" layer="51"/>
+<wire x1="-4.765" y1="4.78" x2="-4.765" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="-4.765" y1="-4.75" x2="4.765" y2="-4.75" width="0.127" layer="21"/>
+<wire x1="4.765" y1="-4.75" x2="4.765" y2="4.78" width="0.127" layer="21"/>
+<wire x1="4.765" y1="4.78" x2="-4.765" y2="4.78" width="0.127" layer="21"/>
+<circle x="-5.5" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5.5" y="0" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-5.015" y1="-5" x2="-5.015" y2="5.03" width="0.05" layer="39"/>
+<wire x1="-5.015" y1="5.03" x2="5.015" y2="5.03" width="0.05" layer="39"/>
+<wire x1="5.015" y1="5.03" x2="5.015" y2="-5" width="0.05" layer="39"/>
+<wire x1="5.015" y1="-5" x2="-5.015" y2="-5" width="0.05" layer="39"/>
+<text x="-5" y="5.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5" y="-5.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="1" x="-2.54" y="0" drill="0.76" shape="square"/>
+<pad name="2" x="0" y="0" drill="0.76"/>
+<pad name="3" x="2.54" y="0" drill="0.76"/>
+</package>
+</packages>
+<symbols>
+<symbol name="COM-09806">
+<wire x1="-5.08" y1="0" x2="-4.572" y2="0" width="0.1524" layer="94"/>
+<wire x1="-4.572" y1="0" x2="-3.81" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.016" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.016" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.016" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="1.016" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.016" x2="4.572" y2="0" width="0.254" layer="94"/>
+<wire x1="4.572" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.2032" layer="94"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CCW" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="CW" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="WIPER" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="COM-09806" prefix="R">
+<description>10 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1 Turn Top Adjustment &lt;a href="https://pricing.snapeda.com/parts/COM-09806/SparkFun%20Electronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="COM-09806" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TRIM_COM-09806">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 10 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment "/>
+<attribute name="MF" value="SparkFun Electronics"/>
+<attribute name="MP" value="COM-09806"/>
+<attribute name="PACKAGE" value="DIP-3 SparkFun Electronics"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=COM-09806&amp;ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10180,7 +10172,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="PORTCM" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="PORTDH" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="PORTDM" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
-<part name="R1" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R1" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
 <part name="SW1" library="TL3342F160QG_TR" deviceset="TL3342F160QG/TR" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="PORTEH" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
@@ -10197,35 +10189,35 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="S7" library="JS202011SCQN" deviceset="JS202011SCQN" device="" value="SLDS2"/>
 <part name="S8" library="JS202011SCQN" deviceset="JS202011SCQN" device="" value="SLDS2"/>
 <part name="S9" library="JS202011SCQN" deviceset="JS202011SCQN" device="" value="SLDS2"/>
-<part name="JP_SLIDES1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="JP_SLIDES2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="R2" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R3" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R4" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R5" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R6" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R7" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R8" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R9" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="JP_SLIDES_DOWN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="JP_SLIDES_UP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="R2" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330R"/>
+<part name="R3" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330R"/>
+<part name="R4" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330R"/>
+<part name="R5" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330R"/>
+<part name="R6" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330R"/>
+<part name="R7" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330R"/>
+<part name="R8" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330R"/>
+<part name="R9" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="330R"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="L1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="L4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="L5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LED7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="LED8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="L8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="LEDS1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="LEDS2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="R10" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R11" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R12" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R13" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R14" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R15" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R16" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R17" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R10" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R11" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R12" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R13" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R14" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R15" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R16" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="R17" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="S10" library="PTS636SM25FSMTRLFS" deviceset="PTS636SM25FSMTRLFS" device="-SMD-6.0X3.5MM" value="BTN1"/>
 <part name="S11" library="PTS636SM25FSMTRLFS" deviceset="PTS636SM25FSMTRLFS" device="-SMD-6.0X3.5MM" value="BTN1"/>
 <part name="S12" library="PTS636SM25FSMTRLFS" deviceset="PTS636SM25FSMTRLFS" device="-SMD-6.0X3.5MM" value="BTN1"/>
@@ -10237,9 +10229,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="BTN_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="BTN_B" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="R19" library="3386P-1-101TLF" deviceset="3386P-1-101TLF" device=""/>
-<part name="R20" library="3386P-1-101TLF" deviceset="3386P-1-101TLF" device=""/>
-<part name="R21" library="3386P-1-101TLF" deviceset="3386P-1-101TLF" device=""/>
+<part name="R19" library="COM-09806" deviceset="COM-09806" device=""/>
+<part name="R20" library="COM-09806" deviceset="COM-09806" device=""/>
+<part name="R21" library="COM-09806" deviceset="COM-09806" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="POT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="PA" library="con-3m" library_urn="urn:adsk.eagle:library:119" deviceset="2510-" device="" package3d_urn="urn:adsk.eagle:package:5571/1"/>
@@ -10262,6 +10254,14 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$4" library="CAPAE830X1000N" deviceset="CAPA" device=""/>
 <part name="U$5" library="CAPAE830X1000N" deviceset="CAPA" device=""/>
+<part name="R23" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
+<part name="R24" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
+<part name="R25" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
+<part name="R26" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
+<part name="R27" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
+<part name="R28" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
+<part name="R29" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
+<part name="R30" library="R0805_" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4K7"/>
 </parts>
 <sheets>
 <sheet>
@@ -10376,13 +10376,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="NAME" x="252.73" y="149.86" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="265.43" y="142.24" size="1.778" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="JP_SLIDES1" gate="A" x="25.4" y="104.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.655" y="110.49" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="17.78" y="110.49" size="1.778" layer="96" rot="R270"/>
+<instance part="JP_SLIDES_DOWN" gate="A" x="25.4" y="99.06" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.655" y="105.41" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="17.78" y="105.41" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="JP_SLIDES2" gate="A" x="53.34" y="104.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.595" y="110.49" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="45.72" y="110.49" size="1.778" layer="96" rot="R270"/>
+<instance part="JP_SLIDES_UP" gate="A" x="53.34" y="99.06" smashed="yes" rot="R270">
+<attribute name="NAME" x="61.595" y="105.41" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="45.72" y="105.41" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R2" gate="G$1" x="7.62" y="325.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.6614" y="323.85" size="1.778" layer="95" rot="R90"/>
@@ -10419,7 +10419,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="SUPPLY5" gate="GND" x="7.62" y="312.42" smashed="yes">
 <attribute name="VALUE" x="5.715" y="309.245" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="7.62" y="337.82" smashed="yes">
+<instance part="L1" gate="G$1" x="7.62" y="337.82" smashed="yes">
 <attribute name="NAME" x="6.096" y="338.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="13.335" y="333.248" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -10431,11 +10431,11 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="NAME" x="11.176" y="338.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="18.415" y="333.248" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED4" gate="G$1" x="15.24" y="337.82" smashed="yes">
+<instance part="L4" gate="G$1" x="15.24" y="337.82" smashed="yes">
 <attribute name="NAME" x="13.716" y="338.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="20.955" y="333.248" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED5" gate="G$1" x="22.86" y="337.82" smashed="yes">
+<instance part="L5" gate="G$1" x="22.86" y="337.82" smashed="yes">
 <attribute name="NAME" x="21.336" y="338.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="28.575" y="333.248" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -10447,7 +10447,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="NAME" x="26.416" y="338.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="33.655" y="333.248" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED8" gate="G$1" x="30.48" y="337.82" smashed="yes">
+<instance part="L8" gate="G$1" x="30.48" y="337.82" smashed="yes">
 <attribute name="NAME" x="28.956" y="338.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="36.195" y="333.248" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -10741,6 +10741,38 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="U$5" gate="G$1" x="17.78" y="482.6" smashed="yes">
 <attribute name="NAME" x="19.4" y="491.14" size="1.27" layer="94"/>
 <attribute name="VALUE" x="19.4" y="476.76" size="1.27" layer="94"/>
+</instance>
+<instance part="R23" gate="G$1" x="22.86" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.3614" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="26.162" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R24" gate="G$1" x="25.4" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.9014" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="28.702" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R25" gate="G$1" x="27.94" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.4414" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="31.242" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R26" gate="G$1" x="30.48" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.9814" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="33.782" y="113.03" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R27" gate="G$1" x="58.42" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.9214" y="105.41" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.722" y="105.41" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R28" gate="G$1" x="55.88" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.3814" y="105.41" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="59.182" y="105.41" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R29" gate="G$1" x="53.34" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.8414" y="105.41" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="56.642" y="105.41" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R30" gate="G$1" x="50.8" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.3014" y="105.41" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="54.102" y="105.41" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -12234,9 +12266,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="S1" gate="G$1" pin="5"/>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="162.56" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="137.16" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
 <junction x="22.86" y="137.16"/>
-<wire x1="22.86" y1="137.16" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP_SLIDES1" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12246,9 +12278,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="55.88" y1="162.56" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="137.16" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
 <junction x="55.88" y="137.16"/>
-<wire x1="55.88" y1="129.54" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="129.54" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP_SLIDES1" gate="A" pin="3"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="121.92" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="129.54" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -12258,9 +12290,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="88.9" y1="162.56" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="137.16" x2="88.9" y2="127" width="0.1524" layer="91"/>
 <junction x="88.9" y="137.16"/>
-<wire x1="88.9" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="127" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP_SLIDES1" gate="A" pin="2"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="121.92" x2="27.94" y2="127" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -12270,9 +12302,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="124.46" y1="162.56" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="137.16" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 <junction x="124.46" y="137.16"/>
-<wire x1="124.46" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="124.46" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP_SLIDES1" gate="A" pin="1"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="121.92" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="124.46" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12283,8 +12315,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="160.02" y="137.16"/>
 <wire x1="160.02" y1="137.16" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="121.92" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="121.92" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP_SLIDES2" gate="A" pin="4"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="114.3" x2="50.8" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -12295,8 +12327,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="193.04" y="137.16"/>
 <wire x1="193.04" y1="137.16" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="119.38" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP_SLIDES2" gate="A" pin="3"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="114.3" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -12307,8 +12339,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="226.06" y="137.16"/>
 <wire x1="226.06" y1="137.16" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="116.84" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP_SLIDES2" gate="A" pin="2"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="114.3" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -12319,14 +12351,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="259.08" y="137.16"/>
 <wire x1="259.08" y1="137.16" x2="259.08" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="114.3" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP_SLIDES2" gate="A" pin="1"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="L1" gate="G$1" pin="C"/>
 <wire x1="7.62" y1="330.2" x2="7.62" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12347,14 +12378,14 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <net name="N$12" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="L4" gate="G$1" pin="C"/>
 <wire x1="15.24" y1="330.2" x2="15.24" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="L5" gate="G$1" pin="C"/>
 <wire x1="22.86" y1="330.2" x2="22.86" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12375,7 +12406,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <net name="N$16" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="LED8" gate="G$1" pin="C"/>
+<pinref part="L8" gate="G$1" pin="C"/>
 <wire x1="30.48" y1="330.2" x2="30.48" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12383,7 +12414,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <segment>
 <pinref part="LEDS1" gate="A" pin="1"/>
 <wire x1="2.54" y1="355.6" x2="2.54" y2="340.36" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="L1" gate="G$1" pin="A"/>
 <wire x1="2.54" y1="340.36" x2="7.62" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12410,14 +12441,14 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="LEDS1" gate="A" pin="4"/>
 <wire x1="10.16" y1="355.6" x2="10.16" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="347.98" x2="15.24" y2="347.98" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="L4" gate="G$1" pin="A"/>
 <wire x1="15.24" y1="347.98" x2="15.24" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="LEDS2" gate="A" pin="1"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="L5" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="355.6" x2="22.86" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12438,7 +12469,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <net name="N$24" class="0">
 <segment>
 <pinref part="LEDS2" gate="A" pin="4"/>
-<pinref part="LED8" gate="G$1" pin="A"/>
+<pinref part="L8" gate="G$1" pin="A"/>
 <wire x1="30.48" y1="355.6" x2="30.48" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12630,6 +12661,62 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="U$4" gate="G$1" pin="P"/>
 <wire x1="-10.16" y1="489.68" x2="-10.16" y2="492.76" width="0.1524" layer="91"/>
 <junction x="-10.16" y="492.76"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="JP_SLIDES_DOWN" gate="A" pin="1"/>
+<wire x1="30.48" y1="111.76" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="JP_SLIDES_DOWN" gate="A" pin="2"/>
+<wire x1="27.94" y1="111.76" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="JP_SLIDES_DOWN" gate="A" pin="3"/>
+<wire x1="25.4" y1="111.76" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="JP_SLIDES_DOWN" gate="A" pin="4"/>
+<wire x1="22.86" y1="111.76" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="1"/>
+<pinref part="JP_SLIDES_UP" gate="A" pin="1"/>
+<wire x1="58.42" y1="104.14" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="JP_SLIDES_UP" gate="A" pin="2"/>
+<wire x1="55.88" y1="104.14" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="JP_SLIDES_UP" gate="A" pin="3"/>
+<wire x1="53.34" y1="104.14" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="R30" gate="G$1" pin="1"/>
+<pinref part="JP_SLIDES_UP" gate="A" pin="4"/>
+<wire x1="50.8" y1="104.14" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
