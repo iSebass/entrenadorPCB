@@ -25835,8 +25835,8 @@ Source: www.kingbright.com</description>
 <wire x1="-0.6" y1="10.245" x2="0.6" y2="10.245" width="0.2032" layer="21"/>
 <wire x1="0" y1="10.845" x2="0" y2="9.645" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="11.3" width="0.2032" layer="21"/>
-<pad name="+" x="0" y="13.9" drill="1.524" diameter="1.778" shape="long" rot="R90"/>
-<pad name="-" x="0" y="-6.1" drill="1.524" diameter="1.778" shape="long" rot="R90"/>
+<pad name="+" x="0" y="13.9" drill="1.524" diameter="2.54" shape="long" rot="R90"/>
+<pad name="-" x="0" y="-6.1" drill="1.524" diameter="2.54" shape="long" rot="R90"/>
 <text x="-3.175" y="16.51" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="0.635" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -26929,7 +26929,7 @@ Source: www.cypressindustries.com</description>
 <part name="RES_PULLUP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="RES_PULLDOWN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="DIS1" library="display-hp" library_urn="urn:adsk.eagle:library:212" deviceset="HD-K123" device="" package3d_urn="urn:adsk.eagle:package:13009/1"/>
-<part name="DATOS_7_SEG" library="con-3m" library_urn="urn:adsk.eagle:library:119" deviceset="2510-" device="" package3d_urn="urn:adsk.eagle:package:5571/1"/>
+<part name="X2" library="con-3m" library_urn="urn:adsk.eagle:library:119" deviceset="2510-" device="" package3d_urn="urn:adsk.eagle:package:5571/1"/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
@@ -26949,9 +26949,9 @@ Source: www.cypressindustries.com</description>
 <part name="S2" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="M251" device="" package3d_urn="urn:adsk.eagle:package:27680/1"/>
 <part name="S3" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="M251" device="" package3d_urn="urn:adsk.eagle:package:27680/1"/>
 <part name="JP_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
-<part name="B7--------------------------B0" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
-<part name="D7-------------------------D0" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
-<part name="C0---------------------------C7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="JP_B" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="JP_D" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="JP_C" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="DIS2" library="display-hp" library_urn="urn:adsk.eagle:library:212" deviceset="HD-K123" device="" package3d_urn="urn:adsk.eagle:package:13009/1"/>
 <part name="T3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="T4" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2N3904" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
@@ -26959,7 +26959,7 @@ Source: www.cypressindustries.com</description>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10K"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X2" device="" package3d_urn="urn:adsk.eagle:package:22455/2"/>
-<part name="TX_RX" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="TX__RX"/>
+<part name="JP_UAR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="TX__RX"/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="5K"/>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="5K"/>
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="3339P" package3d_urn="urn:adsk.eagle:package:23757/1" value="5K"/>
@@ -26973,7 +26973,7 @@ Source: www.cypressindustries.com</description>
 <part name="IC3" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="24*" device="P" package3d_urn="urn:adsk.eagle:package:20796/2" technology="LC256"/>
 <part name="BAT1" library="sn2032" deviceset="SN2032" device=""/>
 <part name="IC4" library="ds1307_pcf8583" deviceset="DS1307" device=""/>
-<part name="MOD_I2C" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k"/>
 <part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="10k"/>
@@ -26989,7 +26989,7 @@ Source: www.cypressindustries.com</description>
 <part name="ZX1" library="con-3m" library_urn="urn:adsk.eagle:library:119" deviceset="240-?-00-0602J" device="1280" package3d_urn="urn:adsk.eagle:package:5566/1"/>
 <part name="IC5" library="uln-udn" library_urn="urn:adsk.eagle:library:407" deviceset="ULN2803A" device="" package3d_urn="urn:adsk.eagle:package:30237/1"/>
 <part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
-<part name="SALIDAS_ULN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 <part name="SUPPLY35" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="RELAY_1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/3" device="" package3d_urn="urn:adsk.eagle:package:9878/1"/>
@@ -26999,12 +26999,12 @@ Source: www.cypressindustries.com</description>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E1.8-4" package3d_urn="urn:adsk.eagle:package:23336/2" value="0.1uF"/>
 <part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C.USB_E" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="FUENTE_ULN" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
+<part name="X3" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/2" device="" package3d_urn="urn:adsk.eagle:package:9881/1"/>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="K3" library="SRD-05VDC-SL-C (1)" deviceset="SRD-05VDC-SL-C" device=""/>
 <part name="K4" library="SRD-05VDC-SL-C (1)" deviceset="SRD-05VDC-SL-C" device=""/>
 <part name="LS1" library="CST-951AP" deviceset="CST-951AP" device=""/>
-<part name="S4" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="M251" device="" package3d_urn="urn:adsk.eagle:package:27680/1"/>
+<part name="BAT2" library="sn2032" deviceset="SN2032" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27520,7 +27520,7 @@ Source: www.cypressindustries.com</description>
 <instance part="SUPPLY13" gate="G$1" x="154.94" y="373.38"/>
 <instance part="SUPPLY14" gate="G$1" x="182.88" y="297.18"/>
 <instance part="SUPPLY15" gate="G$1" x="327.66" y="370.84"/>
-<instance part="SUPPLY16" gate="G$1" x="215.9" y="182.88"/>
+<instance part="SUPPLY16" gate="G$1" x="175.26" y="185.42"/>
 <instance part="SUPPLY17" gate="G$1" x="48.26" y="182.88"/>
 <instance part="SUPPLY18" gate="G$1" x="91.44" y="335.28"/>
 <instance part="SUPPLY19" gate="G$1" x="63.5" y="111.76"/>
@@ -27528,14 +27528,14 @@ Source: www.cypressindustries.com</description>
 <instance part="RES_PULLUP" gate="A" x="30.48" y="116.84" rot="R90"/>
 <instance part="RES_PULLDOWN" gate="A" x="142.24" y="236.22" rot="MR0"/>
 <instance part="DIS1" gate="S" x="284.48" y="134.62"/>
-<instance part="DATOS_7_SEG" gate="-1" x="238.76" y="167.64"/>
-<instance part="DATOS_7_SEG" gate="-2" x="238.76" y="170.18"/>
-<instance part="DATOS_7_SEG" gate="-3" x="238.76" y="172.72"/>
-<instance part="DATOS_7_SEG" gate="-4" x="238.76" y="175.26"/>
-<instance part="DATOS_7_SEG" gate="-5" x="238.76" y="177.8"/>
-<instance part="DATOS_7_SEG" gate="-6" x="238.76" y="180.34"/>
-<instance part="DATOS_7_SEG" gate="-7" x="238.76" y="182.88"/>
-<instance part="DATOS_7_SEG" gate="-8" x="266.7" y="93.98" rot="R90"/>
+<instance part="X2" gate="-1" x="238.76" y="167.64"/>
+<instance part="X2" gate="-2" x="238.76" y="170.18"/>
+<instance part="X2" gate="-3" x="238.76" y="172.72"/>
+<instance part="X2" gate="-4" x="238.76" y="175.26"/>
+<instance part="X2" gate="-5" x="238.76" y="177.8"/>
+<instance part="X2" gate="-6" x="238.76" y="180.34"/>
+<instance part="X2" gate="-7" x="238.76" y="182.88"/>
+<instance part="X2" gate="-8" x="266.7" y="93.98" rot="R90"/>
 <instance part="T1" gate="G1" x="281.94" y="104.14" rot="R180"/>
 <instance part="T2" gate="G1" x="304.8" y="96.52" rot="R180"/>
 <instance part="R15" gate="G$1" x="322.58" y="96.52" smashed="yes">
@@ -27593,9 +27593,9 @@ Source: www.cypressindustries.com</description>
 <attribute name="VALUE" x="88.265" y="153.67" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="JP_A" gate="A" x="411.48" y="406.4"/>
-<instance part="B7--------------------------B0" gate="A" x="439.42" y="406.4"/>
-<instance part="D7-------------------------D0" gate="A" x="439.42" y="378.46"/>
-<instance part="C0---------------------------C7" gate="A" x="414.02" y="378.46"/>
+<instance part="JP_B" gate="A" x="439.42" y="406.4"/>
+<instance part="JP_D" gate="A" x="439.42" y="378.46"/>
+<instance part="JP_C" gate="A" x="414.02" y="378.46"/>
 <instance part="DIS2" gate="S" x="325.12" y="134.62"/>
 <instance part="T3" gate="G1" x="312.42" y="81.28" rot="R180"/>
 <instance part="T4" gate="G1" x="322.58" y="68.58" rot="R180"/>
@@ -27609,7 +27609,7 @@ Source: www.cypressindustries.com</description>
 </instance>
 <instance part="JP2" gate="A" x="365.76" y="99.06"/>
 <instance part="JP4" gate="A" x="73.66" y="287.02"/>
-<instance part="TX_RX" gate="G$1" x="378.46" y="363.22"/>
+<instance part="JP_UAR" gate="G$1" x="378.46" y="363.22"/>
 <instance part="R37" gate="G$1" x="378.46" y="279.4" smashed="yes" rot="MR270">
 <attribute name="NAME" x="382.27" y="285.369" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="382.27" y="283.21" size="1.778" layer="96" rot="MR0"/>
@@ -27632,7 +27632,7 @@ Source: www.cypressindustries.com</description>
 <instance part="IC3" gate="G$1" x="480.06" y="287.02"/>
 <instance part="BAT1" gate="1" x="556.26" y="264.16" rot="R90"/>
 <instance part="IC4" gate="G$1" x="533.4" y="279.4"/>
-<instance part="MOD_I2C" gate="G$1" x="500.38" y="342.9" rot="R90"/>
+<instance part="JP5" gate="G$1" x="500.38" y="342.9" rot="R90"/>
 <instance part="SUPPLY30" gate="GND" x="464.82" y="269.24" smashed="yes">
 <attribute name="VALUE" x="462.915" y="266.065" size="1.778" layer="96"/>
 </instance>
@@ -27670,7 +27670,7 @@ Source: www.cypressindustries.com</description>
 <instance part="ZX1" gate="G$1" x="254" y="363.22"/>
 <instance part="IC5" gate="G$1" x="459.74" y="134.62"/>
 <instance part="JP7" gate="A" x="426.72" y="134.62" rot="MR0"/>
-<instance part="SALIDAS_ULN" gate="A" x="518.16" y="116.84"/>
+<instance part="JP8" gate="A" x="518.16" y="116.84"/>
 <instance part="SUPPLY35" gate="GND" x="444.5" y="116.84" smashed="yes">
 <attribute name="VALUE" x="442.595" y="113.665" size="1.778" layer="96"/>
 </instance>
@@ -27688,18 +27688,15 @@ Source: www.cypressindustries.com</description>
 <instance part="C8" gate="G$1" x="541.02" y="396.24"/>
 <instance part="SUPPLY38" gate="GND" x="541.02" y="386.08"/>
 <instance part="C.USB_E" gate="G$1" x="520.7" y="403.86" rot="R180"/>
-<instance part="FUENTE_ULN" gate="-1" x="449.58" y="208.28"/>
-<instance part="FUENTE_ULN" gate="-2" x="449.58" y="200.66"/>
+<instance part="X3" gate="-1" x="452.12" y="208.28"/>
+<instance part="X3" gate="-2" x="452.12" y="200.66"/>
 <instance part="SUPPLY36" gate="GND" x="464.82" y="193.04" smashed="yes">
 <attribute name="VALUE" x="462.915" y="189.865" size="1.778" layer="96"/>
 </instance>
 <instance part="K3" gate="G$1" x="502.92" y="182.88"/>
 <instance part="K4" gate="G$1" x="510.54" y="162.56"/>
 <instance part="LS1" gate="G$1" x="520.7" y="142.24"/>
-<instance part="S4" gate="1" x="208.28" y="180.34" smashed="yes" rot="MR270">
-<attribute name="NAME" x="210.185" y="186.69" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="205.105" y="184.15" size="1.778" layer="96" rot="MR0"/>
-</instance>
+<instance part="BAT2" gate="1" x="137.16" y="337.82"/>
 </instances>
 <busses>
 </busses>
@@ -28073,7 +28070,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="444.5" y1="124.46" x2="444.5" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SALIDAS_ULN" gate="A" pin="6"/>
+<pinref part="JP8" gate="A" pin="6"/>
 <wire x1="515.62" y1="111.76" x2="508" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 <wire x1="508" y1="111.76" x2="508" y2="109.22" width="0.1524" layer="91"/>
@@ -28084,10 +28081,10 @@ Source: www.cypressindustries.com</description>
 <wire x1="541.02" y1="391.16" x2="541.02" y2="388.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="FUENTE_ULN" gate="-1" pin="KL"/>
+<pinref part="X3" gate="-2" pin="KL"/>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
-<wire x1="454.66" y1="208.28" x2="464.82" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="464.82" y1="208.28" x2="464.82" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="200.66" x2="464.82" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="200.66" x2="464.82" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -28124,7 +28121,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="368.3" x2="297.18" y2="368.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B7--------------------------B0" gate="A" pin="1"/>
+<pinref part="JP_B" gate="A" pin="1"/>
 <wire x1="436.88" y1="416.56" x2="424.18" y2="416.56" width="0.1524" layer="91"/>
 <junction x="424.18" y="416.56"/>
 <label x="424.18" y="416.56" size="1.778" layer="95"/>
@@ -28144,7 +28141,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="370.84" x2="304.8" y2="370.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B7--------------------------B0" gate="A" pin="2"/>
+<pinref part="JP_B" gate="A" pin="2"/>
 <wire x1="436.88" y1="414.02" x2="424.18" y2="414.02" width="0.1524" layer="91"/>
 <junction x="424.18" y="414.02"/>
 <label x="424.18" y="414.02" size="1.778" layer="95"/>
@@ -28164,7 +28161,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="373.38" x2="304.8" y2="373.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B7--------------------------B0" gate="A" pin="3"/>
+<pinref part="JP_B" gate="A" pin="3"/>
 <wire x1="436.88" y1="411.48" x2="424.18" y2="411.48" width="0.1524" layer="91"/>
 <junction x="424.18" y="411.48"/>
 <label x="424.18" y="411.48" size="1.778" layer="95"/>
@@ -28178,7 +28175,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="375.92" x2="304.8" y2="375.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B7--------------------------B0" gate="A" pin="4"/>
+<pinref part="JP_B" gate="A" pin="4"/>
 <wire x1="436.88" y1="408.94" x2="424.18" y2="408.94" width="0.1524" layer="91"/>
 <junction x="424.18" y="408.94"/>
 <label x="424.18" y="408.94" size="1.778" layer="95"/>
@@ -28194,7 +28191,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="378.46" x2="297.18" y2="378.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B7--------------------------B0" gate="A" pin="5"/>
+<pinref part="JP_B" gate="A" pin="5"/>
 <wire x1="436.88" y1="406.4" x2="424.18" y2="406.4" width="0.1524" layer="91"/>
 <junction x="424.18" y="406.4"/>
 <label x="424.18" y="406.4" size="1.778" layer="95"/>
@@ -28208,7 +28205,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="381" x2="304.8" y2="381" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B7--------------------------B0" gate="A" pin="6"/>
+<pinref part="JP_B" gate="A" pin="6"/>
 <wire x1="436.88" y1="403.86" x2="424.18" y2="403.86" width="0.1524" layer="91"/>
 <junction x="424.18" y="403.86"/>
 <label x="424.18" y="403.86" size="1.778" layer="95"/>
@@ -28248,7 +28245,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="215.9" y1="350.52" x2="243.84" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C0---------------------------C7" gate="A" pin="1"/>
+<pinref part="JP_C" gate="A" pin="1"/>
 <wire x1="411.48" y1="388.62" x2="398.78" y2="388.62" width="0.1524" layer="91"/>
 <junction x="398.78" y="388.62"/>
 <label x="398.78" y="388.62" size="1.778" layer="95"/>
@@ -28262,7 +28259,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="215.9" y1="347.98" x2="243.84" y2="347.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C0---------------------------C7" gate="A" pin="2"/>
+<pinref part="JP_C" gate="A" pin="2"/>
 <wire x1="411.48" y1="386.08" x2="398.78" y2="386.08" width="0.1524" layer="91"/>
 <junction x="398.78" y="386.08"/>
 <label x="398.78" y="386.08" size="1.778" layer="95"/>
@@ -28276,7 +28273,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="215.9" y1="345.44" x2="243.84" y2="345.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C0---------------------------C7" gate="A" pin="3"/>
+<pinref part="JP_C" gate="A" pin="3"/>
 <wire x1="411.48" y1="383.54" x2="398.78" y2="383.54" width="0.1524" layer="91"/>
 <junction x="398.78" y="383.54"/>
 <label x="398.78" y="383.54" size="1.778" layer="95"/>
@@ -28290,7 +28287,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="215.9" y1="342.9" x2="243.84" y2="342.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C0---------------------------C7" gate="A" pin="4"/>
+<pinref part="JP_C" gate="A" pin="4"/>
 <wire x1="411.48" y1="381" x2="398.78" y2="381" width="0.1524" layer="91"/>
 <junction x="398.78" y="381"/>
 <label x="398.78" y="381" size="1.778" layer="95"/>
@@ -28316,13 +28313,13 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="350.52" x2="304.8" y2="350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C0---------------------------C7" gate="A" pin="8"/>
+<pinref part="JP_C" gate="A" pin="8"/>
 <wire x1="411.48" y1="370.84" x2="398.78" y2="370.84" width="0.1524" layer="91"/>
 <junction x="398.78" y="370.84"/>
 <label x="398.78" y="370.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TX_RX" gate="G$1" pin="2"/>
+<pinref part="JP_UAR" gate="G$1" pin="2"/>
 <wire x1="375.92" y1="363.22" x2="363.22" y2="363.22" width="0.1524" layer="91"/>
 <junction x="363.22" y="363.22"/>
 <label x="363.22" y="360.68" size="1.778" layer="95"/>
@@ -28342,13 +28339,13 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="347.98" x2="304.8" y2="347.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C0---------------------------C7" gate="A" pin="7"/>
+<pinref part="JP_C" gate="A" pin="7"/>
 <wire x1="411.48" y1="373.38" x2="398.78" y2="373.38" width="0.1524" layer="91"/>
 <junction x="398.78" y="373.38"/>
 <label x="398.78" y="373.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TX_RX" gate="G$1" pin="1"/>
+<pinref part="JP_UAR" gate="G$1" pin="1"/>
 <wire x1="375.92" y1="365.76" x2="363.22" y2="365.76" width="0.1524" layer="91"/>
 <junction x="363.22" y="365.76"/>
 <label x="363.22" y="368.3" size="1.778" layer="95"/>
@@ -28368,7 +28365,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="345.44" x2="304.8" y2="345.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C0---------------------------C7" gate="A" pin="6"/>
+<pinref part="JP_C" gate="A" pin="6"/>
 <wire x1="411.48" y1="375.92" x2="398.78" y2="375.92" width="0.1524" layer="91"/>
 <junction x="398.78" y="375.92"/>
 <label x="398.78" y="375.92" size="1.778" layer="95"/>
@@ -28388,7 +28385,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="342.9" x2="304.8" y2="342.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C0---------------------------C7" gate="A" pin="5"/>
+<pinref part="JP_C" gate="A" pin="5"/>
 <wire x1="411.48" y1="378.46" x2="398.78" y2="378.46" width="0.1524" layer="91"/>
 <junction x="398.78" y="378.46"/>
 <label x="398.78" y="378.46" size="1.778" layer="95"/>
@@ -28414,7 +28411,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="215.9" y1="340.36" x2="243.84" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D7-------------------------D0" gate="A" pin="1"/>
+<pinref part="JP_D" gate="A" pin="1"/>
 <wire x1="436.88" y1="388.62" x2="424.18" y2="388.62" width="0.1524" layer="91"/>
 <junction x="424.18" y="388.62"/>
 <label x="424.18" y="388.62" size="1.778" layer="95"/>
@@ -28428,7 +28425,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="215.9" y1="337.82" x2="243.84" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D7-------------------------D0" gate="A" pin="2"/>
+<pinref part="JP_D" gate="A" pin="2"/>
 <wire x1="436.88" y1="386.08" x2="424.18" y2="386.08" width="0.1524" layer="91"/>
 <junction x="424.18" y="386.08"/>
 <label x="424.18" y="386.08" size="1.778" layer="95"/>
@@ -28442,7 +28439,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="337.82" x2="304.8" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D7-------------------------D0" gate="A" pin="3"/>
+<pinref part="JP_D" gate="A" pin="3"/>
 <wire x1="436.88" y1="383.54" x2="424.18" y2="383.54" width="0.1524" layer="91"/>
 <junction x="424.18" y="383.54"/>
 <label x="424.18" y="383.54" size="1.778" layer="95"/>
@@ -28456,7 +28453,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="340.36" x2="304.8" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D7-------------------------D0" gate="A" pin="4"/>
+<pinref part="JP_D" gate="A" pin="4"/>
 <wire x1="436.88" y1="381" x2="424.18" y2="381" width="0.1524" layer="91"/>
 <junction x="424.18" y="381"/>
 <label x="424.18" y="381" size="1.778" layer="95"/>
@@ -28470,7 +28467,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="353.06" x2="304.8" y2="353.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D7-------------------------D0" gate="A" pin="5"/>
+<pinref part="JP_D" gate="A" pin="5"/>
 <wire x1="436.88" y1="378.46" x2="424.18" y2="378.46" width="0.1524" layer="91"/>
 <junction x="424.18" y="378.46"/>
 <label x="424.18" y="378.46" size="1.778" layer="95"/>
@@ -28484,7 +28481,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="355.6" x2="304.8" y2="355.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D7-------------------------D0" gate="A" pin="6"/>
+<pinref part="JP_D" gate="A" pin="6"/>
 <wire x1="436.88" y1="375.92" x2="424.18" y2="375.92" width="0.1524" layer="91"/>
 <junction x="424.18" y="375.92"/>
 <label x="424.18" y="375.92" size="1.778" layer="95"/>
@@ -28498,7 +28495,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="358.14" x2="304.8" y2="358.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D7-------------------------D0" gate="A" pin="7"/>
+<pinref part="JP_D" gate="A" pin="7"/>
 <wire x1="436.88" y1="373.38" x2="424.18" y2="373.38" width="0.1524" layer="91"/>
 <junction x="424.18" y="373.38"/>
 <label x="424.18" y="373.38" size="1.778" layer="95"/>
@@ -28512,7 +28509,7 @@ Source: www.cypressindustries.com</description>
 <wire x1="264.16" y1="360.68" x2="304.8" y2="360.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D7-------------------------D0" gate="A" pin="8"/>
+<pinref part="JP_D" gate="A" pin="8"/>
 <wire x1="436.88" y1="370.84" x2="424.18" y2="370.84" width="0.1524" layer="91"/>
 <junction x="424.18" y="370.84"/>
 <label x="424.18" y="370.84" size="1.778" layer="95"/>
@@ -28747,7 +28744,6 @@ Source: www.cypressindustries.com</description>
 <junction x="457.2" y="220.98"/>
 <wire x1="370.84" y1="193.04" x2="368.3" y2="193.04" width="0.1524" layer="91"/>
 <junction x="368.3" y="193.04"/>
-<junction x="457.2" y="368.3"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -29285,6 +29281,27 @@ Source: www.cypressindustries.com</description>
 <junction x="48.26" y="172.72"/>
 </segment>
 <segment>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<wire x1="162.56" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
+<junction x="167.64" y="170.18"/>
+<label x="170.18" y="175.26" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="A"/>
+<wire x1="162.56" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="137.16" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="170.18" x2="167.64" y2="180.34" width="0.1524" layer="91"/>
+<junction x="167.64" y="185.42"/>
+<pinref part="R28" gate="G$1" pin="A"/>
+<wire x1="167.64" y1="180.34" x2="167.64" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="177.8" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="180.34" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<junction x="167.64" y="180.34"/>
+<pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
+<wire x1="175.26" y1="180.34" x2="167.64" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="182.88" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<junction x="175.26" y="180.34"/>
+</segment>
+<segment>
 <pinref part="PORTB" gate="-9" pin="KL"/>
 <wire x1="86.36" y1="325.12" x2="91.44" y2="325.12" width="0.1524" layer="91"/>
 <pinref part="PORTC" gate="-9" pin="KL"/>
@@ -29438,12 +29455,6 @@ Source: www.cypressindustries.com</description>
 <wire x1="439.42" y1="337.82" x2="431.8" y2="337.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY33" gate="G$1" pin="VCC"/>
 <wire x1="431.8" y1="337.82" x2="431.8" y2="342.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
-<wire x1="215.9" y1="180.34" x2="215.9" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="S4" gate="1" pin="P"/>
-<wire x1="215.9" y1="177.8" x2="213.36" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="G" class="0">
@@ -29631,8 +29642,8 @@ Source: www.cypressindustries.com</description>
 <segment>
 <pinref part="T2" gate="G1" pin="E"/>
 <pinref part="DIS1" gate="S" pin="CC2"/>
-<wire x1="302.26" y1="101.6" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="101.6" x2="299.72" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="101.6" x2="299.72" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="104.14" x2="299.72" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -29660,58 +29671,63 @@ Source: www.cypressindustries.com</description>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="DATOS_7_SEG" gate="-7" pin="KL"/>
+<pinref part="X2" gate="-7" pin="KL"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="182.88" x2="248.92" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
-<pinref part="DATOS_7_SEG" gate="-6" pin="KL"/>
+<pinref part="X2" gate="-6" pin="KL"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="180.34" x2="248.92" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$62" class="0">
 <segment>
-<pinref part="DATOS_7_SEG" gate="-5" pin="KL"/>
+<pinref part="X2" gate="-5" pin="KL"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$63" class="0">
 <segment>
-<pinref part="DATOS_7_SEG" gate="-4" pin="KL"/>
+<pinref part="X2" gate="-4" pin="KL"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="175.26" x2="248.92" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
-<pinref part="DATOS_7_SEG" gate="-3" pin="KL"/>
+<pinref part="X2" gate="-3" pin="KL"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="172.72" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$65" class="0">
 <segment>
-<pinref part="DATOS_7_SEG" gate="-2" pin="KL"/>
+<pinref part="X2" gate="-2" pin="KL"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$66" class="0">
 <segment>
-<pinref part="DATOS_7_SEG" gate="-1" pin="KL"/>
+<pinref part="X2" gate="-1" pin="KL"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="167.64" x2="248.92" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="DATOS_7_SEG" gate="-8" pin="KL"/>
+<pinref part="X2" gate="-8" pin="KL"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="99.06" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<wire x1="386.08" y1="383.54" x2="388.62" y2="383.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PGD" class="0">
@@ -29734,7 +29750,7 @@ Source: www.cypressindustries.com</description>
 <label x="50.8" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="B7--------------------------B0" gate="A" pin="8"/>
+<pinref part="JP_B" gate="A" pin="8"/>
 <wire x1="436.88" y1="398.78" x2="424.18" y2="398.78" width="0.1524" layer="91"/>
 <junction x="424.18" y="398.78"/>
 <label x="421.64" y="398.78" size="1.778" layer="95"/>
@@ -29761,7 +29777,7 @@ Source: www.cypressindustries.com</description>
 <label x="78.74" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="B7--------------------------B0" gate="A" pin="7"/>
+<pinref part="JP_B" gate="A" pin="7"/>
 <wire x1="436.88" y1="401.32" x2="424.18" y2="401.32" width="0.1524" layer="91"/>
 <junction x="424.18" y="401.32"/>
 <label x="421.64" y="401.32" size="1.778" layer="95"/>
@@ -29845,7 +29861,7 @@ Source: www.cypressindustries.com</description>
 <segment>
 <pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="314.96" x2="469.9" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="MOD_I2C" gate="G$1" pin="1"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="312.42" x2="497.84" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="312.42" x2="497.84" y2="340.36" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="SCL"/>
@@ -29890,7 +29906,7 @@ Source: www.cypressindustries.com</description>
 <pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="477.52" y1="314.96" x2="477.52" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="309.88" x2="500.38" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="MOD_I2C" gate="G$1" pin="2"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="500.38" y1="309.88" x2="500.38" y2="340.36" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="SDA"/>
 <wire x1="495.3" y1="287.02" x2="500.38" y2="287.02" width="0.1524" layer="91"/>
@@ -30014,7 +30030,7 @@ Source: www.cypressindustries.com</description>
 <pinref part="IC5" gate="G$1" pin="O3"/>
 <wire x1="472.44" y1="139.7" x2="500.38" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="500.38" y1="139.7" x2="500.38" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="SALIDAS_ULN" gate="A" pin="1"/>
+<pinref part="JP8" gate="A" pin="1"/>
 <wire x1="515.62" y1="124.46" x2="500.38" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -30022,7 +30038,7 @@ Source: www.cypressindustries.com</description>
 <segment>
 <pinref part="IC5" gate="G$1" pin="O4"/>
 <wire x1="472.44" y1="137.16" x2="497.84" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="SALIDAS_ULN" gate="A" pin="2"/>
+<pinref part="JP8" gate="A" pin="2"/>
 <wire x1="497.84" y1="137.16" x2="497.84" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="121.92" x2="515.62" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -30032,7 +30048,7 @@ Source: www.cypressindustries.com</description>
 <pinref part="IC5" gate="G$1" pin="O5"/>
 <wire x1="472.44" y1="134.62" x2="495.3" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="134.62" x2="495.3" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="SALIDAS_ULN" gate="A" pin="3"/>
+<pinref part="JP8" gate="A" pin="3"/>
 <wire x1="495.3" y1="119.38" x2="515.62" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -30041,7 +30057,7 @@ Source: www.cypressindustries.com</description>
 <pinref part="IC5" gate="G$1" pin="O6"/>
 <wire x1="472.44" y1="132.08" x2="492.76" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="132.08" x2="492.76" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="SALIDAS_ULN" gate="A" pin="4"/>
+<pinref part="JP8" gate="A" pin="4"/>
 <wire x1="492.76" y1="116.84" x2="515.62" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -30050,7 +30066,7 @@ Source: www.cypressindustries.com</description>
 <pinref part="IC5" gate="G$1" pin="O7"/>
 <wire x1="472.44" y1="129.54" x2="490.22" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="490.22" y1="129.54" x2="490.22" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="SALIDAS_ULN" gate="A" pin="5"/>
+<pinref part="JP8" gate="A" pin="5"/>
 <wire x1="490.22" y1="114.3" x2="515.62" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -30083,8 +30099,10 @@ Source: www.cypressindustries.com</description>
 <junction x="477.52" y="152.4"/>
 <wire x1="492.76" y1="190.5" x2="477.52" y2="190.5" width="0.1524" layer="91"/>
 <junction x="477.52" y="190.5"/>
+<pinref part="X3" gate="-1" pin="KL"/>
+<wire x1="457.2" y1="208.28" x2="477.52" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="208.28" x2="477.52" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="K3" gate="G$1" pin="A1"/>
-<wire x1="477.52" y1="200.66" x2="477.52" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="185.42" x2="492.76" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="185.42" x2="492.76" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="K4" gate="G$1" pin="A1"/>
@@ -30092,8 +30110,6 @@ Source: www.cypressindustries.com</description>
 <junction x="477.52" y="165.1"/>
 <pinref part="LS1" gate="G$1" pin="P"/>
 <wire x1="513.08" y1="147.32" x2="520.7" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="FUENTE_ULN" gate="-2" pin="KL"/>
-<wire x1="454.66" y1="200.66" x2="477.52" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$94" class="0">
@@ -30137,28 +30153,6 @@ Source: www.cypressindustries.com</description>
 <wire x1="518.16" y1="157.48" x2="535.94" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$101" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="162.56" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
-<junction x="167.64" y="170.18"/>
-<label x="170.18" y="175.26" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="A"/>
-<wire x1="162.56" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="137.16" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="170.18" x2="167.64" y2="180.34" width="0.1524" layer="91"/>
-<junction x="167.64" y="185.42"/>
-<pinref part="R28" gate="G$1" pin="A"/>
-<wire x1="167.64" y1="180.34" x2="167.64" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="177.8" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="180.34" x2="167.64" y2="180.34" width="0.1524" layer="91"/>
-<junction x="167.64" y="180.34"/>
-<pinref part="S4" gate="1" pin="O"/>
-<wire x1="203.2" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
-<junction x="195.58" y="180.34"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -30167,19 +30161,25 @@ Source: www.cypressindustries.com</description>
 <approved hash="101,1,38.1,330.2,PORTA-8,KL,,,,"/>
 <approved hash="101,1,175.26,154.94,CON_LCD-3,KL,,,,"/>
 <approved hash="101,1,175.26,152.4,CON_LCD-4,KL,,,,"/>
-<approved hash="104,1,162.56,137.16,U$1,A,N$101,,,"/>
+<approved hash="104,1,226.06,358.14,IC2,VSS,GND,,,"/>
+<approved hash="104,1,226.06,360.68,IC2,VDD,VCC,,,"/>
+<approved hash="104,1,297.18,365.76,IC2,VDD,VCC,,,"/>
+<approved hash="104,1,297.18,363.22,IC2,VSS,GND,,,"/>
+<approved hash="104,1,162.56,137.16,U$1,A,VCC,,,"/>
 <approved hash="104,1,162.56,134.62,U$1,K,N$13,,,"/>
-<approved hash="104,1,162.56,170.18,U$1,VDD,N$101,,,"/>
+<approved hash="104,1,162.56,170.18,U$1,VDD,VCC,,,"/>
 <approved hash="104,1,162.56,172.72,U$1,VSS,GND,,,"/>
+<approved hash="106,1,40.64,287.02,D+,,,,,"/>
+<approved hash="106,1,40.64,289.56,D-,,,,,"/>
 <approved hash="105,1,127,331.47,N$39,,,,,"/>
-<approved hash="108,1,127,317.5,N$39,,,,,"/>
-<approved hash="108,1,127,421.64,N$39,,,,,"/>
-<approved hash="108,1,127,302.26,N$39,,,,,"/>
+<approved hash="108,1,10.16,302.26,N$39,,,,,"/>
 <approved hash="108,1,10.16,269.24,N$39,,,,,"/>
+<approved hash="108,1,127,317.5,N$39,,,,,"/>
+<approved hash="108,1,127,302.26,N$39,,,,,"/>
+<approved hash="108,1,10.16,345.44,N$39,,,,,"/>
+<approved hash="108,1,127,421.64,N$39,,,,,"/>
 <approved hash="108,1,127,345.44,N$39,,,,,"/>
 <approved hash="108,1,127,269.24,N$39,,,,,"/>
-<approved hash="108,1,10.16,302.26,N$39,,,,,"/>
-<approved hash="108,1,10.16,345.44,N$39,,,,,"/>
 <approved hash="113,1,31.6704,398.78,ENTRADA_18V-20V,,,,,"/>
 <approved hash="113,1,68.9017,377.19,LED1,,,,,"/>
 <approved hash="113,1,281.836,215.796,FRAME1,,,,,"/>
@@ -30200,41 +30200,21 @@ Source: www.cypressindustries.com</description>
 <approved hash="113,1,20.6146,63.5,BPU0,,,,,"/>
 <approved hash="113,1,48.5546,63.5,BPU2,,,,,"/>
 <approved hash="113,1,61.2546,63.5,BPU3,,,,,"/>
+<approved hash="113,1,114.595,63.5,BPU7,,,,,"/>
 <approved hash="113,1,33.3146,63.5,BPU1,,,,,"/>
+<approved hash="113,1,73.9546,63.5,BPU4,,,,,"/>
+<approved hash="113,1,86.6546,63.5,BPU5,,,,,"/>
+<approved hash="113,1,101.895,63.5,BPU6,,,,,"/>
 <approved hash="113,1,167.345,254,BPD0,,,,,"/>
 <approved hash="113,1,185.125,254,BPD1,,,,,"/>
 <approved hash="113,1,200.365,254,BPD2,,,,,"/>
-<approved hash="113,1,213.436,254,BPD3,,,,,"/>
+<approved hash="113,1,276.565,254,BPD7,,,,,"/>
+<approved hash="113,1,230.845,254,BPD4,,,,,"/>
+<approved hash="113,1,261.325,254,BPD6,,,,,"/>
+<approved hash="113,1,246.085,254,BPD5,,,,,"/>
+<approved hash="113,1,215.605,254,BPD3,,,,,"/>
 <approved hash="113,1,211.191,157.706,JUMP_LCD,,,,,"/>
 <approved hash="113,1,167.005,101.625,U$2,,,,,"/>
-<approved hash="113,1,27.7139,118.769,RES_PULLUP,,,,,"/>
-<approved hash="113,1,138.049,238.986,RES_PULLDOWN,,,,,"/>
-<approved hash="113,1,379.688,393.926,JP3,,,,,"/>
-<approved hash="113,1,91.44,163.535,S2,,,,,"/>
-<approved hash="113,1,91.44,150.835,S3,,,,,"/>
-<approved hash="113,1,409.177,409.166,JP_A,,,,,"/>
-<approved hash="113,1,447.209,409.166,B7--------------------------B0,,,,,"/>
-<approved hash="113,1,446.927,381.226,D7-------------------------D0,,,,,"/>
-<approved hash="113,1,422.375,381.226,C0---------------------------C7,,,,,"/>
-<approved hash="113,1,363.457,101.826,JP2,,,,,"/>
-<approved hash="113,1,72.3477,289.786,JP4,,,,,"/>
-<approved hash="113,1,395.196,263.923,JP6,,,,,"/>
-<approved hash="113,1,554.795,264.16,BAT1,,,,,"/>
-<approved hash="113,1,497.614,342.209,MOD_I2C,,,,,"/>
-<approved hash="113,1,505.46,272.506,Q2,,,,,"/>
-<approved hash="113,1,499.511,255.27,C5,,,,,"/>
-<approved hash="113,1,517.291,255.27,C6,,,,,"/>
-<approved hash="113,1,439.657,334.236,XBEE,,,,,"/>
-<approved hash="113,1,459.74,136.18,IC5,,,,,"/>
-<approved hash="113,1,429.023,137.386,JP7,,,,,"/>
-<approved hash="113,1,520.441,119.606,SALIDAS_ULN,,,,,"/>
-<approved hash="113,1,543.884,182.88,RELAY_1,,,,,"/>
-<approved hash="113,1,543.884,157.48,RELAY_2,,,,,"/>
-<approved hash="113,1,515.394,349.057,I2C_18F,,,,,"/>
-<approved hash="113,1,530.634,349.057,I2C_16F,,,,,"/>
-<approved hash="113,1,521.605,401.094,C.USB_E,,,,,"/>
-<approved hash="113,1,443.868,208.28,FUENTE_ULN,,,,,"/>
-<approved hash="113,1,208.28,181.315,S4,,,,,"/>
 </errors>
 </schematic>
 </drawing>
